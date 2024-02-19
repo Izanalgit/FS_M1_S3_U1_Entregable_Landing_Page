@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-sacale=1.0">
+    <link rel="stylesheet" href="estilocss.css">
+    <title>Ejercicio GIT</title>
+
+</head>
+<body>
+    <nav>
+        <div id="titulo">
+            <h2>PLANET</h2>
+            <h2>SKIN</h2>
+        </div>
+
+        <div id="navbarra">
+            <!-- 
+                He encontrado esta preciosidad de select en stackoverflow, 
+                no se cuan malapraxis es pero es oro jeje
+            -->
+            <select onChange="window.location.href=this.value">
+                <option value="#">Cuidado Facial</option>
+                <option value="./relleno.html">RELLENO</option>
+            </select>
+            <select onChange="window.location.href=this.value">
+                <option value="#">Tipo de piel</option>
+                <option value="./relleno.html">RELLENO</option>
+            </select>
+            <select onChange="window.location.href=this.value">
+                <option value="#">Te preucupa</option>
+                <option value="./relleno.html">RELLENO</option>
+            </select>
+            <select onChange="window.location.href=this.value">
+                <option value="#">Cuidados corporales</option>
+                <option value="./relleno.html">RELLENO</option>
+            </select>
+            <select onChange="window.location.href=this.value">
+                <option value="#">Maquillaje</option>
+                <option value="./relleno.html">RELLENO</option>
+            </select>
+            <select onChange="window.location.href=this.value">
+                <option value="#">Outlet y promociones</option>
+                <option value="./relleno.html">RELLENO</option>
+            </select>
+            <a href="./relleno.html">Novedades</a>
+            <select onChange="window.location.href=this.value">
+                <option value="#">Marcas</option>
+                <option value="./relleno.html">RELLENO</option>
+            </select>
+        </div>
+
+        <div id="botonesnav">
+            <a href="./relleno.html" class="botonnav"><img src="./img/usuarioboton.png"/></a>
+            <a href="./relleno.html" class="botonnav"><img src="./img/busquedaboton.png"/></a>
+            <a href="./relleno.html" class="botonnav"><img src="./img/comprasboton.png"/></a>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <h1>PORTADA</h1>
+        </section>
+        <section>
+            <article>
+                <h2>RELLENO 1</h2>
+                <p><strong>Relleno</strong> para darle un poco de recorrido al scroll.</p>
+            </article>
+            <article>
+                <h2>RELLENO 2</h2>
+                <p><strong>Relleno</strong> para darle un poco de recorrido al scroll.</p>
+            </article>
+            <article>
+                <h2>RELLENO 3</h2>
+                <p><strong>Relleno</strong> para darle un poco de recorrido al scroll.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <button onclick="location.href='./relleno.html'" type="button" id="sk">
+            <img src="./img/regalito.png"/>Planet Skin Club
+        </button>
+        <div id="chat">
+            <button onclick="location.href='./relleno.html'" type="button">
+                <img src="./img/chat.png"/>
+            </button>
+            <a href="./relleno.html"></a>
+            <p>1</p>
+        </div>
+    </footer>
+</body>
+</html>
